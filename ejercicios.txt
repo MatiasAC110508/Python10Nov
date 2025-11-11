@@ -1,0 +1,118 @@
+🧩 Ejercicios de Bucles, Condicionales y Funciones en Python
+Nivel: Trainee (1–10)
+
+1. Cafetería “Buen Café” – Control de tazas servidas
+Como barista, quiero usar un bucle for para mostrar cuántas tazas he servido del 1 al 10, pero si el número es 5, mostrar el mensaje “¡Mitad del turno completada!”.
+
+2. Cine “La Estrella” – Cuenta regresiva antes de iniciar la función
+Como proyeccionista, quiero mostrar una cuenta regresiva del 5 al 1 usando for. Si llega al número 1, debe imprimir “¡Que empiece la función!”.
+
+3. Gimnasio “Solo Leveling Fit” – Motivación diaria
+Como entrenador, quiero usar un while que repita 5 veces el mensaje “¡Tú puedes lograrlo!”, pero en la última repetición muestre “¡Excelente trabajo, terminaste!”.
+
+4. Tienda “Descuento Express” – Clientes atendidos
+Como cajero, quiero usar un for que muestre “Atendiendo cliente número X” del 1 al 8. Si el cliente es el número 8, mostrar “Último cliente del día”.
+
+5. Escuela “Aprende Más” – Registro de tareas entregadas
+Como profesor, quiero usar un while que sume tareas hasta 10. Si el contador llega a 10, mostrar “¡Todas las tareas recibidas!”. Si aún no llega, mostrar cuántas faltan.
+
+6. Fábrica “LoopTech” – Control de producción
+Como supervisor, quiero que un for muestre los productos fabricados del 1 al número que indique el usuario.
+Si el número es par, mostrar “Producto verificado”.
+Si es impar, mostrar “Producto pendiente”.
+
+7. Restaurante “Buen Sabor” – Revisión de limpieza
+Como jefe de cocina, quiero usar un for para repetir 3 veces el mensaje “Limpia tu estación”.
+Si es la última vez, mostrar “¡Revisión completada!”.
+
+8. Academia de baile – Calentamiento previo
+Como instructor, quiero usar un while para contar del 1 al 5.
+Si el número es menor que 5, mostrar “Sigue calentando...”, y si llega a 5, mostrar “¡Listo para bailar!”.
+
+9. Concurso “Adivina el número secreto”
+Como participante, quiero que el programa me pida un número entre 1 y 5 usando un while.
+Si acierto, mostrar “¡Correcto!”.
+Si no, mostrar “Intenta otra vez” y seguir hasta acertar.
+
+10. Taller “Mecánica Pro” – Revisiones del día
+Como mecánico, quiero usar un for que muestre “Revisión X”.
+Si X es igual a 3, mostrar “Revisión especial de motor”.
+Nivel: Junior (11–20)
+
+11. Banco “PythonBank” – Simulación de ahorro mensual
+Como cliente, quiero usar un for que sume mi ahorro mensual durante 6 meses.
+Si en algún mes el total supera $1,000,000, mostrar “¡Meta alcanzada!”.
+Al final, mostrar el total acumulado.
+
+12. Gimnasio “Level Up” – Control de repeticiones
+Como deportista, quiero ingresar un número de repeticiones y usar un for para imprimir “Repetición X completada”.
+Si X es divisible por 3, mostrar además “¡Excelente ritmo!”.
+
+13. Parqueadero “AutoLoop” – Control de vehículos
+Como vigilante, quiero usar un while que cuente vehículos hasta llegar a 20.
+Si entra un número par, mostrar “Vehículo par registrado”.
+Si el total llega a 20, mostrar “Capacidad completa”.
+
+14. Tienda “Ahorra Más” – Caja registradora básica
+Como cajero, quiero pedir montos de venta hasta que el usuario escriba 0.
+Si la venta supera $100,000, mostrar “Venta destacada”.
+Al final, mostrar el total vendido.
+
+15. Academia “CodeStart” – Contador de ejercicios completados
+Como estudiante, quiero usar un for del 1 al número que indique.
+Si el número es múltiplo de 5, mostrar “¡Gran avance!”.
+Si no, solo mostrar “Ejercicio X completado”.
+
+16. Gasolinera “LoopFuel” – Control de litros vendidos
+Como operador, quiero usar un while que sume litros hasta superar 100.
+Cada vez que se venda una cantidad, verificar:
+
+    Si el total aún es menor que 100 → mostrar “Sigue vendiendo”.
+    Si llega o supera 100 → mostrar “Meta diaria alcanzada”.
+
+17. Panadería “Don Pancho” – Producción diaria
+Como panadero, quiero usar un for del 1 al 12.
+Si el número es 6, mostrar “Mitad de la producción completada”.
+Si es 12, mostrar “¡Día finalizado!”.
+
+18. Academia de inglés – Repetición de palabras
+Como estudiante, quiero ingresar una palabra y usar un for para repetirla 5 veces.
+Si el contador es impar, mostrar la palabra en minúsculas.
+Si es par, mostrarla en mayúsculas.
+
+19. Tienda de helados – Registro de clientes atendidos
+Como empleado, quiero usar un while que cuente clientes hasta que el número supere 15.
+Si el número es múltiplo de 5, mostrar “Pausa para limpieza”.
+Al final, mostrar “Turno finalizado”.
+
+20. Aplicación “Inicio Seguro” – Intentos de inicio de sesión
+Como usuario, quiero usar un while con máximo 3 intentos de contraseña.
+Si acierto, mostrar “Acceso permitido”.
+Si agoto los intentos, mostrar “Acceso denegado”.
+Nivel: Introducción a Funciones (21–25)
+
+21. Tienda “FuncionaShop” – Mensaje de bienvenida
+Como dueño de la tienda, quiero crear una función llamada saludo() que imprima “Bienvenido a FuncionaShop”.
+Luego, quiero llamarla desde el programa principal.
+
+22. Gimnasio “StrongFit” – Cálculo de energía
+Como entrenador, quiero una función calcularEnergia() que reciba un número de repeticiones y devuelva un mensaje:
+
+    Si las repeticiones son menores de 5 → “Necesitas más esfuerzo”.
+    Si son 5 o más → “¡Buen trabajo!”.
+
+23. Banco “LoopBank” – Simulación de intereses
+Como analista financiero, quiero una función calcularInteres() que reciba un monto y una tasa (porcentaje) y retorne el valor final después de aplicar el interés una vez.
+El programa principal debe pedir los datos y mostrar el resultado.
+
+24. Escuela “Aprende con Funciones” – Promedio de notas
+Como profesor, quiero crear una función promedioNotas() que reciba tres notas y calcule el promedio.
+Si el promedio es mayor o igual a 3.0, mostrar “Aprobado”; si no, “Reprobado”.
+
+25. Restaurante “BuenaFunción” – Verificación de turno
+Como gerente, quiero una función verificarTurno(hora) que determine:
+
+    Si la hora es menor que 12 → “Turno de mañana”.
+    Si está entre 12 y 18 → “Turno de tarde”.
+    Si es mayor → “Turno de noche”.
+    El programa principal debe pedir la hora e imprimir el resultado.
